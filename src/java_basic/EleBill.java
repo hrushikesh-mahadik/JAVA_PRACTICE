@@ -5,7 +5,7 @@ import java.util.*;
 public class EleBill {
  public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-	System.out.println("enter your unit: ");
+	System.out.println("enter your unit: 40");
 	int units = sc.nextInt();
 	double chargs = 0,totalamt;
 	if (units<50) {
