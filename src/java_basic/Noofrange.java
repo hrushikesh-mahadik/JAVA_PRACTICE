@@ -7,9 +7,9 @@ Scanner sc = new Scanner(System.in);
 	System.out.print("enter the range beteen 1 to 100:");
 	int num = sc.nextInt();
 //	
-	for(int ranges = 1; ranges<=100; ranges++ ) {
-		if ( num == ranges) {break;}
-		ranges = ranges
+//	for(int ranges = 1; ranges<=100; ranges++ ) {
+//		if ( num == ranges) {break;}
+//		ranges = ranges
 		
 		
 //	}
