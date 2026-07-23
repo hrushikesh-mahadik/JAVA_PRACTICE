@@ -67,9 +67,9 @@ class plan{
 
 public class JioSawan {
 	public static void main(String[] args) {
-		plan obj = new plan();
-		obj.acceptVal();
-		obj.showVal();
+		plan obj1 = new plan();
+		obj1.acceptVal();
+		obj1.showVal();
 		
 	}
 
