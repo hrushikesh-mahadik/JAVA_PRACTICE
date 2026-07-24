@@ -33,15 +33,16 @@ public class Stud {
 	
 	public void acceptStudentData() {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter id");
+		System.out.println("Enter the Detail");
+		System.out.print("    enter id");
 		setId(sc.nextInt());
-		System.out.println("enter Age");
+		System.out.print("    enter Age");
 		setAge(sc.nextInt());
-		System.out.println("enter name");
+		System.out.print("    enter name");
 		setName(sc.next());
-		System.out.println("enter gender");
+		System.out.print("    enter gender");
 		setGen(sc.next());
-		System.out.println("enter department");
+		System.out.print("    enter department");
 		setDept(sc.next());
 	}
 	
@@ -87,7 +88,20 @@ public class Stud {
 	public static void showStudentArray() {
 		for(Stud stud:student_list) {
 			stud.showStudentdata();
+			
 		}
 	}
 	
+	public static void sortStudentArray() {
+	for(int i = 0 ; i<student_list.length; i++) {
+		for(int j = 0; j<student_list.length;j++) {
+			if(student_list[i].getAge()>student_list[j].getAge()) {
+				Stud s = student_list[i];
+				student_list[i] = student_list[j];
+				student_list[j] = s;
+				
+			}
+		}
+	}
+	}
 }
