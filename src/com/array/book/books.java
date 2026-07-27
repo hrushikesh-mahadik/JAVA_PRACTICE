@@ -60,15 +60,15 @@ public class books {
 			s.showdataBook();
 		}
 		}
-	public void sortedbook() {
-		for(int i=0; i<data.length;i++) {
-			for(int j=i+1; j<data.length;j++) {
-				books t = data[i];
-				data[i]=data[j];
-				data[j]=t;
-			}
-			data[i].arrayforshowbook();
-		}
+//	public void sortedbook() {
+//		for(int i=0; i<data.length;i++) {
+//			for(int j=i+1; j<data.length;j++) {
+//				books t = data[i];
+//				data[i]=data[j];
+//				data[j]=t;
+//			}
+//			data[i].arrayforshowbook();
+//		}
 	}
-	}
+	
 
