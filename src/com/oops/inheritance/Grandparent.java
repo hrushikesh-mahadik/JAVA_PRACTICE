@@ -2,8 +2,7 @@ package com.oops.inheritance;
 
 public class Grandparent {
 
-	public Grandparent() {
-		System.out.println("hello");
+	public int add(int a, int b) {
+		return a+b;
 	}
-	public int l;
 }
