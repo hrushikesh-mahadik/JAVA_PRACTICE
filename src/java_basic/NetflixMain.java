@@ -5,7 +5,7 @@ public class NetflixMain {
 	private int Phone;
 	private int customerId;
 	private String plan;
-}
+
 	
 
 	
@@ -22,8 +22,7 @@ public class NetflixMain {
 	public void acceptPlan() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the name");
-		getName
-		
+	
 		System.out.println("enter phone");
 		int Phone = sc.nextInt();
 		
@@ -32,8 +31,10 @@ public class NetflixMain {
 		
 		System.out.println("Plan activeted or Not");
 		String plan = sc.next();
-		
 	}
+	}
+
+
 	
 	
 	
