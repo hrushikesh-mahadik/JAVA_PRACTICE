@@ -1,6 +1,9 @@
 package dsa.practice.array;
 
+import java.util.Arrays;
 import java.util.Scanner;
+
+
 
 public class ReverseArray {
 	public static void main(String[] args) {
@@ -23,13 +26,25 @@ public class ReverseArray {
         }
         System.out.println();
         
+        // SIMPLE
         System.out.println("REVERSE ARRAY:- ");
         for(int i = arr.length-1; i>=0; i--) {
       
         System.out.print( arr[i]+" ");
         }
-      
-     
+        // two pointer Approch
+        
+        int a[]= {1,2,3,4};
+        int start = 0 , end = a.length-1;
+        while(start<end) {
+        	int temp = start;
+        	a[start]=a[end];
+        	a[end]=temp;
+        	start++;
+        	end--;
+        }
+//   System.out.println(Array.toString(a));
+  
 		
 	}
 }
