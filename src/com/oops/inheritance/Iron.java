@@ -3,46 +3,43 @@ package com.oops.inheritance;
 import java.util.Scanner;
 
 public class Iron extends Matal {
-	
-    private String geo;
 
-    public Iron() {
-    	acceptDataIron()
-; 
-    showDataIron();	
-    }
+	private String geo;
 
-    public Iron(String geo) {
-       
-  
-        setgeo(geo);
-    }
+	public Iron() {
+		acceptDataIron();
+		showDataIron();
+	}
 
+	public Iron(String geo) {
 
-    public String getgeo() {
-        return geo;
-    }
+		setgeo(geo);
+	}
 
-    public void setgeo(String geo) {
-        this.geo = geo;
-    }
+	public String getgeo() {
+		return geo;
+	}
 
-    public void acceptDataIron() {
+	public void setgeo(String geo) {
+		this.geo = geo;
+	}
 
-        acceptDataMetal();
+	public void acceptDataIron() {
 
-        Scanner sc = new Scanner(System.in);
+		acceptDataMetal();
 
-        System.out.print("Enter geo_loacation: ");
-        geo = sc.nextLine();
+		Scanner sc = new Scanner(System.in);
 
-          }
+		System.out.print("Enter geo_loacation: ");
+		geo = sc.nextLine();
 
-    public void showDataIron() {
+	}
 
-        System.out.println("IRON Details");
-        showDataMetal();
-        System.out.println("geo : " + geo);
-    
-    }
+	public void showDataIron() {
+
+		System.out.println("IRON Details");
+		showDataMetal();
+		System.out.println("geo : " + geo);
+
+	}
 }
